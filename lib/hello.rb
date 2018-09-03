@@ -5,6 +5,7 @@ def hello_t(name)
     yield name[i]
     i = i + 1
   end
+  name
 end
 
 # call your method here!
