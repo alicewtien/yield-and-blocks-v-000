@@ -6,8 +6,8 @@ def hello_t(array)
       if name.start_with?("T")
         puts "Hi, #{name}"
       end
+      i = i + 1
     end
-    i = i + 1
   end
   array
 end
